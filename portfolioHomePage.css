@@ -2,32 +2,45 @@
     margin: 0;
     padding: 0;
     font-size: 16px;
+    
 }
 
 /* header*/
 
 header {
+    display: grid;
     width: 100%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     background-color: hsla(239, 50%, 50%, 100);
     color: hsla(100, 100%, 50%, 100);
+    grid-template-rows: 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem 1rem;
 }
 
-h1 {
-    font-size: 5rem;
+header h1 {
+    font-size: 3rem;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
 
 header h2 {
-    font-size: 3rem;
-    text-align: center;
-    margin-top: 3rem;
+    font-size: 5rem;
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 9;
+    
 }
 
 header a {
+    font-size: 2rem;
     color: hsla(150, 100%, 50%, 100);
-    margin-left: 2rem;
+    grid-column-start: 1;
+    grid-row-start: 18;
+    margin-left: 1rem;
 }
 
-#header-image {
-    float: right;
-    margin-right: 15rem;
+header img {
+    grid-row-start: 2;
+    grid-column-start: 8;
 }
