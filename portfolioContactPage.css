@@ -1,4 +1,25 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1px solid red;
+}
+
+/*    head   */
+
+header {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10rem 10rem 10rem;
+}
+
+#cover-photo-container {
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+    grid-column-start: 4;
+}
+
+head a {
+    grid-column-start: 2;
 }
