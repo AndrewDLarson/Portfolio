@@ -107,10 +107,10 @@ main p {
 }
 
 main a {
-    color: hsla(150, 100%, 50%, 100);
-    margin: 3rem;
-    padding-bottom: 2rem;
+    color: black;
+    text-decoration: none;
 }
+
 
 .project-image-container {
    width: 100%;
